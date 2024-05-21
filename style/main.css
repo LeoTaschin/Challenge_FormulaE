@@ -1,0 +1,40 @@
+#bg-header {
+    height: 10px;
+    display: block;
+    content: " ";
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto {
+    width: 50%;
+    display: grid;
+    margin: auto;
+    font-family: "Exo 2", sans-serif;
+    place-content: center;
+    text-transform: uppercase;
+}
+
+.texto h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: normal;
+}
+
+#texto1{
+    background: linear-gradient(90deg, #14B7ED 0%, #0554F2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.botao{
+    display: flex;
+}
+
+.botao p {
+    font-size: 22px;
+    font-weight: 600;
+}

@@ -1,0 +1,16 @@
+#cards{
+    height: 570px;
+    display: block;
+    content: " ";
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px;
+}
+
+.cards-texto{
+    display: flex;
+    gap: 10px;
+}
